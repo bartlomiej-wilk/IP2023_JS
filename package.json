@@ -1,0 +1,23 @@
+{
+  "name": "ip2023_js",
+  "version": "1.0.0",
+  "description": "Intive Patronage 2023 - recruitment task",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bartlomiej-wilk/IP2023_JS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bartlomiej-wilk/IP2023_JS/issues"
+  },
+  "homepage": "https://github.com/bartlomiej-wilk/IP2023_JS#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}

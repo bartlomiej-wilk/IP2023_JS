@@ -23,15 +23,21 @@
     <link rel="stylesheet" href="./static/css/styles.css" type="text/css" />
     <title>Strona główna</title>
   </head>
-  <body>
-    <nav>
-      <button class="nav-button" type="button">
-        <a class="nav-link" href="./index.html">Logowanie</a>
+  <body id="index">
+    <nav class="nav-index">
+      <button class="nav-index-button" type="button">
+        <a class="nav-index-link" href="/login" data-link>Logowanie</a>
       </button>
-      <button class="nav-button" type="button">
-        <a class="nav-link" href="./index.html">Rejestracja</a>
+      <button class="nav-index-button" type="button">
+        <a class="nav-index-link" href="/registration" data-link>Rejestracja</a>
+      </button>
+      <button class="nav-index-button" type="button">
+        <a class="nav-index-link" href="/zalogowany" data-link
+          >Uzytkownik zalogowany</a
+        >
       </button>
     </nav>
+    <div id="app"></div>
     <script type="module" drc="/static/js/index.js" data-></script>
   </body>
 </html>

@@ -13,7 +13,7 @@ body {
   color: var(--main-font-color);
 }
 
-nav {
+.nav-index {
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -23,7 +23,7 @@ nav {
   color: var(--navigation-font-color);
 }
 
-.nav-button {
+.nav-index-button {
   background-color: var(--button-background-color);
   color: var(--button-font-color);
   height: 52px;
@@ -31,11 +31,21 @@ nav {
   margin: 7px;
   border-radius: 7px;
 }
-.nav-button:hover {
+.nav-index-button:hover {
   background-color: var(--button-background-color-hover);
 }
 
-.nav-link {
+.nav-index-link {
   text-decoration-line: none;
   color: var(--button-font-color);
+}
+
+.nav-logged {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-left: 7px;
+  height: 80px;
+  background-color: var(--navigation-background-color);
+  color: var(--navigation-font-color);
 }
